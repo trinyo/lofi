@@ -7,7 +7,7 @@ const Container = (props: any) => {
 
   return (
     <div className="flex justify-center w-full h-full p-2">
-      <div className="h-full w-full">
+      <div className="h-full w-full flex-col  flex gap-2">
         {notes.map((note: any, index: number) => (
           <Card
             key={index}
