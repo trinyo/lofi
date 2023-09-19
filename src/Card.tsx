@@ -5,14 +5,17 @@ const Card = (props: any) => {
 
   return (
     <div className="flex flex-col bg-[#191717] text-white rounded p-1">
-      <div id="title" className="pl-1">
+      <div id="title" className="text-xl underline pl-1 font-mono">
         {title}
       </div>
-      <div id="author" className="font-serif pl-5">
-        {author}
-      </div>
-      <div id="description" className="flex justify-center">
+      <div
+        id="description"
+        className="flex justify-center font-serif m-2 text-sm"
+      >
         {description}
+      </div>
+      <div id="author" className="font-serif pl-5 italic text-base">
+        {author}
       </div>
     </div>
   );
