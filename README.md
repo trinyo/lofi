@@ -4,4 +4,4 @@
 
 ahoz hogy hözzátudj járulni az oldalhoz, csak írj bele a `notes_here.json`-ba
 
-ehhez it egy template `{"title":"","author":"","description":""}`
+ehhez itt egy template `{"title":"","author":"","description":""}`
